@@ -2,8 +2,8 @@ Source: debathena-libxj
 Section: debathena/libs
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: @cdbs@, libx11-dev, libxext-dev
-Standards-Version: 3.7.2
+Build-Depends: cdbs, debhelper, dh-buildinfo, autoconf, libx11-dev, libxext-dev
+Standards-Version: 3.9.3
 
 Package: debathena-libxj-dev
 Section: debathena/libdevel
