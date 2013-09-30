@@ -7,6 +7,7 @@ VPATH=@srcdir@
 INSTALL=@INSTALL@
 INSTALL_PROGRAM=@INSTALL_PROGRAM@
 RANLIB=@RANLIB@
+MKDIR_P=@MKDIR_P@
 srcdir=@srcdir@
 top_srcdir=@top_srcdir@
 prefix=@prefix@
@@ -54,8 +55,8 @@ sintable: sintable.o
 check:
 
 install:
-	${top_srcdir}/mkinstalldirs ${DESTDIR}${libdir}
-	${top_srcdir}/mkinstalldirs ${DESTDIR}${includedir}/Jets
+	${MKDIR_P} ${DESTDIR}${libdir}
+	${MKDIR_P} ${DESTDIR}${includedir}/Jets
 	${INSTALL} -m 644 libXj.a ${DESTDIR}${libdir}
 	${RANLIB} ${DESTDIR}${libdir}/libXj.a
 	chmod u-w ${DESTDIR}${libdir}/libXj.a
