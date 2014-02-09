@@ -1,3 +1,10 @@
+debathena-libxj (10.0.2-0debathena1) unstable; urgency=low
+
+  * Update to 10.0.2
+  * Stop playing games with automake now that we have a real build system
+
+ -- Alexander Chernyakhovsky <achernya@mit.edu>  Sun, 09 Feb 2014 08:44:10 -0500
+
 debathena-libxj (10.0.1-0debathena1) unstable; urgency=low
 
   [ Jonathan Reed ]

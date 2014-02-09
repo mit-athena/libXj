@@ -4,5 +4,8 @@
 	dh $@ --with autoreconf
 
 override_dh_auto_configure:
-	automake --add-missing --foreign || true
-	dh_auto_configure
+	dh_auto_configure -- --enable-shared=no
+
+override_dh_install:
+	dh_install
+	find $(CURDIR)/debian -name "*.la" -delete
