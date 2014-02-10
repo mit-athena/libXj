@@ -1,3 +1,9 @@
+debathena-libxj (10.0.3-0debathena1) unstable; urgency=low
+
+  * Release 10.0.3
+
+ -- Victor Vasiliev <vasilvv@mit.edu>  Mon, 10 Feb 2014 10:11:13 -0500
+
 debathena-libxj (10.0.2-0debathena1) unstable; urgency=low
 
   * Update to 10.0.2
